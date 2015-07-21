@@ -24,9 +24,9 @@ class DetectFaceDemo {
 
     // Create a face detector from the cascade file in the resources
     // directory.
-    String classifierLocation = getClass().getResource("/lbpcascade_frontalface.xml").getPath();
+    String classifierLocation = getClass().getResource("/resources/lbpcascade_frontalface.xml").getPath();
     classifierLocation = classifierLocation.substring(1);
-    String imageLocation = getClass().getResource("/derp.jpg").getPath();
+    String imageLocation = getClass().getResource("/resources/derp.jpg").getPath();
     imageLocation = imageLocation.substring(1);
     System.out.println(classifierLocation);
     System.out.println(imageLocation);
